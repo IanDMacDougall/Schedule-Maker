@@ -6,7 +6,7 @@ class Admin(User):
         pass
     def remove_user(self, user_id):
         pass
-    def update_course_info(self, course_id, **kwargs):
+    def update_course_info(self, course_id):
         pass
     def create_course(self, course_id, course_details):
         pass
