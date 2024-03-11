@@ -1,44 +1,45 @@
 *{ /* Baseline */
     background: #827878;
-    z-index: 1;
 }
 
 /* Navbar */
 .navbar{
     background-color: #141414;
     height: 80px;
-    display: grid;
-    justify-content:center;
-    align-items: center;
-    z-index: 2;
+    display: flex;
     font-size: 1.2rem;
+    align-items: center;
 }
 
 .navbar__container{
     background-color: #141414;
-    display: inline-block;
-}
-
+    }
     /* title */
 
 .navbar__title{
     color: aliceblue;
+    text-align: center;
+    
 }
 
 .navbar__title h1 {
-    background-color: #141414
+    background-color: #141414;
+    align-self: center;
 }
 
     /* logo */
 
 .navbar__logo {
-    display: flex;
-    align-items: end;
+    
+
 
 }
 
 .navbar__logo img {
-   
+    align-items: center;
+   height: 100%;
+   width: 100%;
+   cursor: pointer;
 }
 
 /* Main */
